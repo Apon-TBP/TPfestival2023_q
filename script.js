@@ -8,3 +8,17 @@ function click_submit() {
   }
 }
 
+function click_links(kind) {
+  switch case (kind) {
+    case 1:
+      window.open("https://www.tobiratory.com/") ;
+      break ;
+    case 2:
+      window.open("https://tobirapolis.notion.site/TOBIRAPOLIS-9bc44d2cd75d4d4db1a31cc3779ecee9") ;
+      break ;
+    case 3:
+      window.open("https://x.com/Tobiratory?s=20") ;
+      break ;
+    default:
+  }
+
