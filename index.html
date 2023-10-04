@@ -8,15 +8,18 @@
 <body>
   <div id = "main_page">
   <section id = "pass">
-    ここにパスワード入力
+    <p>ここにパスワード入力</p>
+    <p><input type = "text" id = "pass_in"></p>
+    <p><input type ="submit" id ="pass_go" onclick 
+              = "javascript:click_submit();"></p>
   </section>
   <footer>
     <ul id = "links">
-      <li><a href ="https://www.tobiratory.com/">
+      <li><a href ="javascript:click_links(1);">
         TOBIRATORY 公式ホームページ</a></li>
-      <li><a href ="https://tobirapolis.notion.site/TOBIRAPOLIS-9bc44d2cd75d4d4db1a31cc3779ecee9">
+      <li><a href ="javascript:click_links(2);">
         TOBIRAPOLIS notion</a></li>
-      <li><a href ="https://x.com/Tobiratory?s=20">
+      <li><a href ="javascript:click_links(3);">
         Tobiratory X(旧Twitter)</a></li>
     </ul>
   </footer>
