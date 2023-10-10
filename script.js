@@ -1,5 +1,5 @@
 function click_submit() {
-	const D_PASS : string = "おんがく" ;		//正解を定義
+	const D_PASS= "おんがく" ;		//正解を定義
 	let res = document.getElementById('pass_in')	//記入したパスワードを取得
 	//パスワードの文字数は0より大きいか？
 	if (res.value.length > 0 ) {
