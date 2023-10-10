@@ -1,5 +1,5 @@
 function click_submit() {
-	const D_PASS = "おんがく" ;
+	const D_PASS : string = "おんがく" ;
 	let res = document.getElementById('pass_in')
 	if (res.value.length > 0 ) {
 		if (res === D_PASS ) {
