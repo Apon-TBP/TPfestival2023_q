@@ -1,10 +1,11 @@
 #main_page {
   width: 80% ;
-  background-color: yellow ;
+  margin: 0px auto ;
+  /* background-color: yellow ; */
 }
 
 #pass {
-  background-color: lime ;
+  /* background-color: lime ; */
   margin: 10px auto ; padding: 5px ;
   text-align: center ;
   font-size: 16pt ;
@@ -12,7 +13,7 @@
 
 footer {
   width: 80% ;
-  background-color: pink ;
+  /* background-color: pink ; */
   margin: 10px auto ;
 }
 
