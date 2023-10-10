@@ -24,7 +24,6 @@ ul #links{
 }
 
 #links li{
-  display: inline-block ;
   width: 30% ;
   margin: 10px ; padding: 5px ;
   background-color: orange ;
@@ -32,6 +31,7 @@ ul #links{
 }
 
 #links a{
+  display: inline-block ;
   text-decoration: none ;
   color: white ;
 }
