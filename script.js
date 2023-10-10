@@ -1,4 +1,5 @@
 function click_submit() {
+	const D_PASS = "おんがく" ;
 	let res = document.getElementById('pass_in')
 	if (res.value.length > 0 ) {
 		if (res === D_PASS ) {
