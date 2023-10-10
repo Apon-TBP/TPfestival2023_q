@@ -2,7 +2,7 @@ function click_submit() {
 	const D_PASS : string = "おんがく" ;
 	let res = document.getElementById('pass_in')
 	if (res.value.length > 0 ) {
-		if (res === D_PASS ) {
+		if (res == D_PASS ) {
 			window.alert('正解です！') ;	
 			window.open("https://tobirapolis.notion.site/TOBIRAPOLIS-9bc44d2cd75d4d4db1a31cc3779ecee9") ;
 		} else {
