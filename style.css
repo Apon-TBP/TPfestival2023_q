@@ -7,36 +7,7 @@
   color: gray ;
 }
 
-#pass {
-  /* background-color: lime ; */
-  margin: 10px auto ; padding: 5px ;
-  text-align: center ;
-  font-size: 16pt ;
-}
-
-footer {
-  width: 80% ;
-  /* background-color: pink ; */
-  margin: 10px auto ;
-}
-
-ul #links{
-  list-style-type: none;
-}
-
-#links li{
-  display: inline-block ;
-  width: 30% ;
-  margin: 10px ; padding: 5px ;
-  background-color: #00adbe ;
-  text-align: center ;
-}
-
-#links a{
-  text-decoration: none ;
-  color: white ;
-}
-
+/************************** section cts */
 #cts{
   text-align: center ;
 }
@@ -48,10 +19,37 @@ ul #links{
 #cts h2{
   color: brown ;
 }
-  
+
+/************************** section pass */
+#pass {
+  margin: 10px auto ; padding: 5px ;
+  text-align: center ;
+  font-size: 16pt ;
+}
 input #pass_go{
   font-size: 12em ;
 }
 input #pass_go:hover {
   cursor: pointer ;
+}
+
+/************************** footer */
+footer {
+  margin: 10px auto ;
+}
+
+/************************** footer links */
+ul #links{
+  list-style-type: none;
+}
+#links li{
+  display: inline-block ;
+  width: 30% ;
+  margin: 10px ; padding: 5px ;
+  background-color: #00adbe ;
+  text-align: center ;
+}
+#links a{
+  text-decoration: none ;
+  color: white ;
 }
