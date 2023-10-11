@@ -25,14 +25,14 @@
   margin: 10px auto ; padding: 5px ;
   text-align: center ;
   font-size: 16pt ;
-  color: skyblue ;
+  color: #00b5ff ;
   font-weight: bold ;
 }
 input #pass_go{
-  /* font-size: 12em ; */
+  /* font-size: 12em ; */  /* 効いてない */
 }
 input #pass_go:hover {
-  cursor: pointer ;
+  /* cursor: pointer ; */  /* 効いてない */
 }
 
 /************************** footer */
