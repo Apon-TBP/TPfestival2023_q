@@ -2,7 +2,7 @@
   width: 80% ;  height: 1000px ;
   margin: 0px auto ;
   /* background-color: yellow ; */
-  background-image: url("images/12_TobirapolisFestival2023.png") ;
+  background-image: url("images/12_TobirapolisFestival2023.png") ;  /* なぜか動かないのでhtmlに直書き中 */
   background-color: #f8dce0 ;
   color: gray ;
 }
