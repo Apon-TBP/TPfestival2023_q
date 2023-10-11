@@ -36,3 +36,22 @@ ul #links{
   text-decoration: none ;
   color: white ;
 }
+
+h1{
+  text-align: center ;
+  font-size: 10em ;
+  color: white ;
+  text-shadow: 0 0 2px gray;
+}
+
+h2{
+  text-align: left ;
+  color: brown ;
+}
+
+input #pass_go{
+  font-size: 12em ;
+}
+input #pass_go:hover {
+  cursor: pointer ;
+}
