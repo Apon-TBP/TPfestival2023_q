@@ -29,7 +29,7 @@
   font-weight: bold ;
 }
 input #pass_go{
-  font-size: 12em ;
+  /* font-size: 12em ; */
 }
 input #pass_go:hover {
   cursor: pointer ;
