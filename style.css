@@ -37,18 +37,18 @@ ul #links{
   color: white ;
 }
 
-h1{
+#cts{
   text-align: center ;
-  font-size: 10em ;
+}
+#cts h1{
+  font-size: 6em ;
   color: white ;
   text-shadow: 0 0 2px gray;
 }
-
-h2{
-  text-align: left ;
+#cts h2{
   color: brown ;
 }
-
+  
 input #pass_go{
   font-size: 12em ;
 }
