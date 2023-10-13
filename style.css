@@ -1,6 +1,6 @@
 #main_page {
   width: 80% ;  height: 1000px ;
-  margin: 0px auto ;  padding: 10px ;
+  margin: 0px auto ;  
   /* background-color: yellow ; */
   background-image: url('images/12_TobirapolisFestival2023.png') ;  /* なぜか動かないのでhtmlに直書き中 */
   background-color: #d1f1ff ;
@@ -23,16 +23,18 @@
 /************************** section pass */
 #pass {
   margin: 10px auto ; padding: 5px ;
+  width:300px ;
   text-align: center ;
   font-size: 16pt ;
   color: #00b5ff ;
   font-weight: bold ;
+  border: solid ;
 }
 input #pass_go{
   /* font-size: 12em ; */  /* 効いてない */
 }
 input #pass_go:hover {
-  /* cursor: pointer ; */  /* 効いてない */
+  cursor: pointer ;   /* 効いてない */
 }
 
 /************************** footer */
@@ -46,7 +48,7 @@ ul #links{
 }
 #links li{
   display: inline-block ;
-  width: 25% ;
+  width: 25% ; height: 50px ;
   margin: 10px ; padding: 5px ;
   background-color: #00adbe ;
   text-align: center ;
@@ -61,5 +63,5 @@ ul #links{
   font-size: 150% ;
   color: #f20aff ;
   font-weight: bold ;
-  text-shadow: 0 0 2px white ;
+  text-shadow: 0px 3px white ;
 }
