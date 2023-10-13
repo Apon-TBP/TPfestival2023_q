@@ -69,19 +69,25 @@ ul #links{
 
 @media screen and (max-width: 959px) {
   body{
-      font-size: smaller ;
-      margin: 5% auto ;
+     font-size: smaller ;
+     margin: 5% auto ;
   }
-	#links li{
-    width: 40% ;
+  #cts h1{
+     font-size: 100% ;
+  }
+  #links li{
+     width: 40% ;
   }
 }
 @media screen and (max-width: 480px) {
-    body{
-	font-size: smaller ;
-	margin: 0 ;
+  body{
+     font-size: xx-smaller ;
+     margin: 0 ;
+    }
+  #cts h1{
+    font-size: 100% ;
   }
-	#links li{
+  #links li{
     width: 100% ;
   }
 }
