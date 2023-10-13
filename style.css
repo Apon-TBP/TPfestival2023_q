@@ -65,3 +65,22 @@ ul #links{
   font-weight: bold ;
   text-shadow: 0px 3px white ;
 }
+
+
+@media screen and (max-width: 959px) {
+  body{
+  '    font-size: smaller ;
+  }
+	#links li{
+    width: 40% ;
+  }
+}
+@media screen and (max-width: 480px) {
+  body{
+      font-size: smaller ;
+  }
+	#links li{
+    width: 100% ;
+  }
+}
+
