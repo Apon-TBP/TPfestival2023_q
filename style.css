@@ -1,6 +1,6 @@
 #main_page {
   width: 80% ;  height: 1000px ;
-  margin: 0px auto ;  padding: 1% ;
+  margin: 0px auto ;  padding: 10px ;
   /* background-color: yellow ; */
   background-image: url('images/12_TobirapolisFestival2023.png') ;  /* なぜか動かないのでhtmlに直書き中 */
   background-color: #d1f1ff ;
@@ -14,7 +14,7 @@
 #cts h1{
   font-size: 300% ;
   color: white ;
-  text-shadow: 0 0 2px gray;
+  text-shadow: 0 0 2px blue;
 }
 #cts h2{
   color: brown ;
