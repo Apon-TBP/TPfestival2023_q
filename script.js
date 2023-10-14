@@ -8,7 +8,7 @@ function click_submit() {
 			window.alert('正解です！') ;	
 			//window.open("https://tobirapolis.notion.site/TOBIRAPOLIS-9bc44d2cd75d4d4db1a31cc3779ecee9") ;
 			//				//報酬ページを開く
-			let ele = document.getElementById('p_img');
+			let ele = document.getElementById('present');
 			// 現在の display プロパティの値を保持
 			//const displayOriginal = ele.style.display;
 			// none に設定して非表示
