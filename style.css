@@ -54,6 +54,7 @@ ul #links{
   text-align: center ;
 }
 #links a{
+  display: block ;
   text-decoration: none ;
   color: white ;
 }
