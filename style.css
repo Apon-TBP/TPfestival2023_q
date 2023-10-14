@@ -52,8 +52,10 @@ div #links{
   margin: 10px ; 
   background-color: #00adbe ;
   text-align: center ;
-  text-decoration: none ;
   color: white ;
+}
+#links a{
+  text-decoration: none ;
 }
 
 /************************* others */
