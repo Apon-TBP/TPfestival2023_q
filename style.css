@@ -25,6 +25,8 @@
 }
 #present img{
   width: 500px; heigth: 400px ;
+  background-color: yellow ;
+  border: solid 2px ;
 }
 /************************** section pass */
 #pass {
