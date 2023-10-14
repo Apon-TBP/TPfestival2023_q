@@ -10,6 +10,7 @@
 /************************** section cts */
 #cts{
   text-align: center ;
+  padding: 10px ;
 }
 #cts h1{
   font-size: 300% ;
@@ -30,16 +31,18 @@
   font-weight: bold ;
   border: solid ;
 }
-input #pass_go{
-  /* font-size: 12em ; */  /* 効いてない */
+input#pass_in{
+  font-size: large ;
+  text-align: center ;
 }
-input #pass_go:hover {
-  cursor: pointer ;   /* 効いてない */
+input#pass_go:hover {
+  cursor: pointer ; 
 }
 
 /************************** footer */
 footer {
   margin: 10px auto ;
+  font-size: 15px ;
 }
 
 /************************** footer links */
@@ -61,6 +64,10 @@ div #links{
   font-weight: bold ;
   
 }
+#links p.link:hover{
+  background-color: #61dae6 ;
+  cursor: pointer ;
+}
 
 /************************* others */
 .atention{
@@ -79,26 +86,34 @@ div #links{
   #cts h1{
      font-size: 300% ;
   }
-  #links a{
-     width: 40% ;
+  #links p.link{
+     width: 100px ; height: 40px; line-height: 20px;
+     font-size: 10px ; 
   }
-}
+ 
 @media screen and (max-width: 480px) {
   body{
      font-size: xx-smaller ;
      margin: 0 ;
     }
   #cts h1{
-    font-size: 200% ;
+    font-size: 150% ;
+  }
+  #cts h2{
+    font-size: 100% ;
   }
   #pass {
   margin: 5px auto ; padding: 5px ;
-  width: 100% ;
+  width: 90% ;
   font-size: 10pt ;
   font-weight: bold ;
-}
+  }
+  #pass input#pass_in{
+    width: 90% ;
+  }
   #links a{
-    width: 100% ;
+    width: 100% ; height: 20px; line-height: 10px ;
+    font-size: 8px ; 
   }
 }
 
