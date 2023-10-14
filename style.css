@@ -45,6 +45,7 @@ footer {
 /************************** footer links */
 div #links{
   margin: 0 auto ;
+  width: auto ;
 }
 #links p.link{
   display: inline-block ;
