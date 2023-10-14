@@ -20,7 +20,7 @@
 }
 /************************** section present */
 #present{
-  display: block ;
+  display: none ; /* 初期値はnone。正解したらjsでblock指定 */
   width: 100% ;
 }
 #present img{
