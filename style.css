@@ -44,12 +44,12 @@ footer {
 
 /************************** footer links */
 div #links{
-  margin: 0 auto ;
-  width: auto ;
+  display: flex;
+  justify-content: center;
 }
 #links p.link{
   display: inline-block ;
-  width: 200px ; height: 50px ;
+  width: 200px ; height: 50px ; line-height: 25px ;
   margin: 10px ; 
   background-color: #00adbe ;
 }
