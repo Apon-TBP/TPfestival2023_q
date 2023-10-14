@@ -43,17 +43,15 @@ footer {
 }
 
 /************************** footer links */
-ul #links{
-  list-style-type: none;
+div #links{
+  margin: 0 auto ;
 }
-#links li{
+#links a{
   display: inline-block ;
   width: 200px ; height: 50px ;
   margin: 10px ; 
   background-color: #00adbe ;
   text-align: center ;
-}
-#links a{
   display: block ;
   text-decoration: none ;
   color: white ;
@@ -76,7 +74,7 @@ ul #links{
   #cts h1{
      font-size: 100% ;
   }
-  #links li{
+  #links a{
      width: 40% ;
   }
 }
@@ -94,7 +92,7 @@ ul #links{
   font-size: 10pt ;
   font-weight: bold ;
 }
-  #links li{
+  #links a{
     width: 100% ;
   }
 }
