@@ -46,6 +46,7 @@ footer {
 div #links{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 #links p.link{
   display: inline-block ;
