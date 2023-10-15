@@ -6,15 +6,13 @@ function click_submit() {
 		//パスワードの文字列は正解と一致しているか？
 		if (res.value == D_PASS ) {
 			window.alert('正解です！') ;	
-			//window.open("https://tobirapolis.notion.site/TOBIRAPOLIS-9bc44d2cd75d4d4db1a31cc3779ecee9") ;
-			//				//報酬ページを開く
-			let ele = document.getElementById('present');
-			// 現在の display プロパティの値を保持
-			//const displayOriginal = ele.style.display;
-			// none に設定して非表示
-			ele.style.display = 'block';
-			// 元に戻して表示
-			//ele.style.display = displayOriginal;
+			//プレゼントを表示
+			let pre = document.getElementById('present');
+			pre.style.display = 'block';
+			//パスワード入力欄を非表示
+			let pas = document.geteElementbyid('pass');
+			pas.style.display = 'none' ;
+			
 		} else {
 			window.alert('回答が違うようです…再チャレンジ！') ;
 		}
