@@ -45,7 +45,7 @@ input#pass_in{
   font-size: large ;
   text-align: center ;
 }
-input#pass_go:hover {
+button#pass_go:hover {
   cursor: pointer ; 
 }
 
