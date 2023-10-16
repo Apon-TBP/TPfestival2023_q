@@ -1,5 +1,5 @@
 #main_page {
-  width: 80% ;  height: 1000px ;
+  width: 80% ;  height: auto ;
   margin: 0px auto ;  
   color: #635a53 ;
   text-align: center ;
@@ -30,6 +30,7 @@
 }
 /************************** section pass */
 #pass {
+  display: block ;
   margin: 10px auto ; padding: 5px ;
   width:300px ;
   text-align: center ;
