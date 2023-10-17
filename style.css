@@ -57,6 +57,7 @@ body {
   color: #00b5ff ;
   font-weight: bold ;
   border: solid ;
+  background-color: #FFFFFF80 ;
 }
 input#pass_in{
   font-size: large ;
