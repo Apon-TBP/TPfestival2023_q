@@ -42,6 +42,10 @@ body {
   display: none ; /* 初期値はnone。正解したらjsでblock指定 */
   width: 100% ;
 }
+#present h2{
+  color: #ff6161 ;
+  font-size: 20pt ;
+}
 #present img{
   width: 500px; heigth: 400px ;
   background-color: yellow ;
