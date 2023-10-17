@@ -10,7 +10,7 @@ function click_submit() {
 			let pre = document.getElementById('present');
 			pre.style.display = 'block';
 			//パスワード入力欄を非表示
-			let pas = document.geteElementbyid('pass');
+			let pas = document.getElementById('pass');
 			pas.style.display = 'none' ;
 			
 		} else {
