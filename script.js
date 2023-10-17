@@ -12,7 +12,10 @@ function click_submit() {
 			//パスワード入力欄を非表示
 			let pas = document.getElementById('pass');
 			pas.style.display = 'none' ;
-			
+			//締め切りを非表示
+			let sime = document.getElementById('sime') ;
+			sime.style.display = 'none' ;
+
 		} else {
 			window.alert('回答が違うようです…再チャレンジ！') ;
 		}
