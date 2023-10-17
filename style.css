@@ -1,29 +1,41 @@
 body {
-
+  background-color: #eafeff ;
 }
 #main_page {
   width: 80% ;  height: auto ;
   margin: 0px auto ;  
-  color: #635a53 ;
+  color: #00037b ; font-weight: bolder ;
   text-align: center ;
-  background: #c8e7ff url(https://apon-tbp.github.io/TPfestival2023_q/images/TPfes_bg.png) ;
+  background: #a2d7ff87 url(https://apon-tbp.github.io/TPfestival2023_q/images/TPfes_bg.png) ;
   background-size: contain ;
   background-position: center ;
   background-repeat: no-repeat ;
+  border: solid 3px #4987ff;
 }
 
 /************************** section cts */
 #cts{
   text-align: center ;
-  padding: 10px ;
+  padding: 0px ;
+}
+#cts{
+  /* background-color: #006cff87 ; */
+  margin: auto ;
 }
 #cts h1{
   font-size: 300% ;
   color: white ;
   text-shadow: 0 0 2px blue;
+  background-color: #4987ff ;
+  margin: 0 ;
 }
+
 #cts h2{
   color: brown ;
+  margin: 0 ;
+  text-shadow: 2px 2px white ;
+  /*border-bottom: solid 3px #4987ff ;
+  background-color: #ffffff80 ;*/
 }
 /************************** section present */
 #present{
