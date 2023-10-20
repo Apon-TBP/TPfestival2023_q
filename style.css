@@ -45,6 +45,9 @@ body {
 #present h2{
   color: #ff6161 ;
   font-size: 20pt ;
+  background-color: #ffffff90 ;
+  border-top: white 3px solid ;
+  border-bottom: white 3px solid ;
 }
 #present img{
   width: 500px; heigth: 400px ;
@@ -89,18 +92,22 @@ div #links{
   margin: 10px ; 
   background-color: #00adbe ;
   text-align: center ;
+  border-bottom: white solid 3px ;
 }
 #links a{
   text-decoration: none ;
   color: white ;
-  font-weight: bold ;
-  
+  font-weight: bold ;  
 }
 #links p.link:hover{
   background-color: #61dae6 ;
   cursor: pointer ;
 }
 
+/************************* fotter ctredit */
+#credit{
+/*   color: #00037b ; */
+}
 /************************* others */
 .atention{
   font-size: 150% ;
