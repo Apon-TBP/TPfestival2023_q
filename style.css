@@ -79,8 +79,8 @@ table td {
   font-size: 10px ;
   text-align: center ;  vertical-align: middle ;
 }
-td .b {
-  border: 1px solid ;
+td.b {
+  border: 1px solid black ;
   }
 /************************** footer */
 footer {
