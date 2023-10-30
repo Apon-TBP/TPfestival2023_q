@@ -42,26 +42,25 @@ function click_links(kind) {
 }
 function xw_ipt() {
 	let res = document.getElementById('ipt-list') ;
-	window.alert(res) ;
+	window.alert(res.value) ;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
+	switch (res.value) {
+	case "↓タテのカギ1"
+		if (res.length = 5){
+			document.setElementById('v1-1')=res.charAt(0) ;
+			document.setElementById('v1-2')=res.charAt(1) ;
+			document.setElementById('v1-3')=res.charAt(2) ;
+			document.setElementById('v1-4')=res.charAt(3) ;
+			document.setElementById('v1-5')=res.charAt(4) ;
+		} else {
+			window.alert('文字数があっていません！') ;
+		}
+	case "↓タテのカギ2"
+	case "↓タテのカギ4"
+	case "↓タテのカギ5"
+	case "→ヨコのカギ1"
+	case "→ヨコのカギ3"
+	case "→ヨコのカギ6"
+	case "→ヨコのカギ7"
+	}
 }
