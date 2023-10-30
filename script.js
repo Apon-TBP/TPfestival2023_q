@@ -41,12 +41,10 @@ function click_links(kind) {
   	}
 }
 function xw_ipt() {
-	let res = document.getElementById('ipt-list') ;
-	window.alert(res.value) ;
-
-	switch (res.value) {
+	let res = document.getElementById('ipt-list').value ;
+	switch (res) {
 	case "↓タテのカギ1"
-		if (res.length = 5){
+		if (res.length == 5){
 			document.setElementById('v1-1')=res.charAt(0) ;
 			document.setElementById('v1-2')=res.charAt(1) ;
 			document.setElementById('v1-3')=res.charAt(2) ;
