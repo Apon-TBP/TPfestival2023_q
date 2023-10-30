@@ -73,7 +73,11 @@ input#pass_in{
 button#pass_go:hover {
   cursor: pointer ; 
 }
-
+/************************** section tbl */
+tbl {
+  border: 1px ;
+  
+}
 /************************** footer */
 footer {
   margin: 10px auto ;
