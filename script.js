@@ -40,7 +40,7 @@ function click_links(kind) {
 	break ;
   	}
 }
-function xw_ipt {
+function xw_ipt() {
 	let res = document.getElementById('ipt-list') ;
 	window.alert(res) ;
 }
