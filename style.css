@@ -74,6 +74,9 @@ button#pass_go:hover {
   cursor: pointer ; 
 }
 /************************** section tbl */
+#tbl{
+  height: 400px;
+}
 table td {
   width: 10px ;  height: 10px ;
   font-size: 10px ;
@@ -82,6 +85,11 @@ table td {
 td.b {
   border: 1px solid black ;
   }
+
+/************************** section tbl xwinpt */
+tbl #xw-input {
+  
+}
 /************************** footer */
 footer {
   margin: 10px auto ;
