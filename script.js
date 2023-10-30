@@ -44,7 +44,7 @@ function xw_ipt() {
 	let res = document.getElementById('ipt-list').value ;
 	switch (res) {
 	case "↓タテのカギ1"
-		if (res.length == 5){
+		if (res.value.length === 5 ) {
 			document.setElementById('v1-1')=res.charAt(0) ;
 			document.setElementById('v1-2')=res.charAt(1) ;
 			document.setElementById('v1-3')=res.charAt(2) ;
@@ -53,6 +53,7 @@ function xw_ipt() {
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
+		break ;
 	case "↓タテのカギ2"
 	case "↓タテのカギ4"
 	case "↓タテのカギ5"
