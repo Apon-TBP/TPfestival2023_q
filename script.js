@@ -42,10 +42,10 @@ function click_links(kind) {
 }
 function xw_ipt() {
 	let res = document.getElementById('ipt-list') ;
-	window.alert(res.value) ;
+	let ipt = document.getElementById('xw-iptbox') ;
 	switch (res.value) {
 	case "↓タテのカギ1":
-		if (res.value.length == 5 ) {
+		if (ipt.value.length == 5 ) {
 			document.setElementById('v1-1')=res.charAt(0) ;
 			document.setElementById('v1-2')=res.charAt(1) ;
 			document.setElementById('v1-3')=res.charAt(2) ;
@@ -56,7 +56,7 @@ function xw_ipt() {
 		}
 		break ;
 	case "↓タテのカギ2":
-		if (res.value.length == 4 ) {
+		if (ipt.value.length == 4 ) {
 			document.setElementById('v2-1')=res.charAt(0) ;
 			document.setElementById('v2-2')=res.charAt(1) ;
 			document.setElementById('v2-3')=res.charAt(2) ;
@@ -66,7 +66,7 @@ function xw_ipt() {
 		}
 		break ;
 	case "↓タテのカギ4":
-		if (res.value.length == 5 ) {
+		if (ipt.value.length == 5 ) {
 			document.setElementById('v4-1')=res.charAt(0) ;
 			document.setElementById('v4-2')=res.charAt(1) ;
 			document.setElementById('v4-3')=res.charAt(2) ;
@@ -77,7 +77,7 @@ function xw_ipt() {
 		}
 		break ;
 	case "↓タテのカギ5":
-		if (res.value.length == 4 ) {
+		if (ipt.value.length == 4 ) {
 			document.setElementById('v5-1')=res.charAt(0) ;
 			document.setElementById('v5-2')=res.charAt(1) ;
 			document.setElementById('v5-3')=res.charAt(2) ;
@@ -87,7 +87,7 @@ function xw_ipt() {
 		}
 		break ;
 	case "→ヨコのカギ1":
-		if (res.value.length == 5 ) {
+		if (ipt.value.length == 5 ) {
 			document.setElementById('h1-1')=res.charAt(0) ;
 			document.setElementById('h1-2')=res.charAt(1) ;
 			document.setElementById('h1-3')=res.charAt(2) ;
@@ -98,7 +98,7 @@ function xw_ipt() {
 		}
 		break ;
 	case "→ヨコのカギ3":
-		if (res.value.length == 3 ) {
+		if (ipt.value.length == 3 ) {
 			document.setElementById('h3-1')=res.charAt(0) ;
 			document.setElementById('h3-2')=res.charAt(1) ;
 			document.setElementById('h3-3')=res.charAt(2) ;
@@ -107,7 +107,7 @@ function xw_ipt() {
 		}
 		break ;
 	case "→ヨコのカギ6":
-		if (res.value.length == 5 ) {
+		if (ipt.value.length == 5 ) {
 			document.setElementById('h6-1')=res.charAt(0) ;
 			document.setElementById('h6-2')=res.charAt(1) ;
 			document.setElementById('h6-3')=res.charAt(2) ;
@@ -118,7 +118,7 @@ function xw_ipt() {
 		}
 		break ;
 	case "→ヨコのカギ7":
-		if (res.value.length == 4 ) {
+		if (ipt.value.length == 4 ) {
 			document.setElementById('h7-1')=res.charAt(0) ;
 			document.setElementById('h7-2')=res.charAt(1) ;
 			document.setElementById('h7-3')=res.charAt(2) ;
