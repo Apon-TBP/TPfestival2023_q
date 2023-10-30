@@ -43,4 +43,25 @@ function click_links(kind) {
 function xw_ipt() {
 	let res = document.getElementById('ipt-list') ;
 	window.alert(res) ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 }
