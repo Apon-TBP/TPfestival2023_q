@@ -42,6 +42,7 @@ function click_links(kind) {
 }
 function xw_ipt() {
 	let res = document.getElementById('ipt-list').value ;
+	window.alert(res.value) ;
 	switch (res) {
 	case "↓タテのカギ1"
 		if (res.value.length === 5 ) {
