@@ -46,6 +46,7 @@ function xw_ipt() {
 	switch (res.value) {
 	case "↓タテのカギ1":
 		if (ipt.value.length == 5 ) {
+			window.alert(res.charAt(0)) ;
 			document.setElementById('v1-1')=res.charAt(0) ;
 			document.setElementById('v1-2')=res.charAt(1) ;
 			document.setElementById('v1-3')=res.charAt(2) ;
