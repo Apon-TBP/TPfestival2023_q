@@ -74,10 +74,14 @@ button#pass_go:hover {
   cursor: pointer ; 
 }
 /************************** section tbl */
-tbl {
-  border: 1px ;
-  
+table td {
+  width: 10px ;  height: 10px ;
+  font-size: 10px ;
+  text-align: center ;  vertical-align: middle ;
 }
+td .b {
+  border: 1px solid ;
+  }
 /************************** footer */
 footer {
   margin: 10px auto ;
