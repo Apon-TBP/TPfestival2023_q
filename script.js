@@ -46,73 +46,73 @@ function xw_ipt() {
 	switch (res) {
 	case "↓タテのカギ1":
 		if (ipt.length == 5 ) {
-			document.setElementById('v1-1')=ipt.charAt(0) ;
-			document.setElementById('v1-2')=ipt.charAt(1) ;
-			document.setElementById('v1-3')=ipt.charAt(2) ;
-			document.setElementById('v1-4')=ipt.charAt(3) ;
-			document.setElementById('v1-5')=ipt.charAt(4) ;
+			document.getElementById('v1-1').innerText=ipt.charAt(0) ;
+			document.getElementById('v1-2').innerText=ipt.charAt(1) ;
+			document.getElementById('v1-3').innerText=ipt.charAt(2) ;
+			document.getElementById('v1-4').innerText=ipt.charAt(3) ;
+			document.getElementById('v1-5').innerText=ipt.charAt(4) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
 	case "↓タテのカギ2":
-		if (ipt.value.length == 4 ) {
-			document.setElementById('v2-1')=ipt.charAt(0) ;
-			document.setElementById('v2-2')=ipt.charAt(1) ;
-			document.setElementById('v2-3')=ipt.charAt(2) ;
-			document.setElementById('v2-4')=ipt.charAt(3) ;
+		if (ipt.length == 4 ) {
+			document.getElementById('v2-1').innerText=ipt.charAt(0) ;
+			document.getElementById('v2-2').innerText=ipt.charAt(1) ;
+			document.getElementById('v2-3').innerText=ipt.charAt(2) ;
+			document.getElementById('v2-4').innerText=ipt.charAt(3) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
 	case "↓タテのカギ4":
-		if (ipt.value.length == 5 ) {
-			document.setElementById('v4-1')=ipt.charAt(0) ;
-			document.setElementById('v4-2')=ipt.charAt(1) ;
-			document.setElementById('v4-3')=ipt.charAt(2) ;
-			document.setElementById('v4-4')=ipt.charAt(3) ;
-			document.setElementById('v4-5')=ipt.charAt(4) ;
+		if (ipt.length == 5 ) {
+			document.getElementById('v4-1').innerText=ipt.charAt(0) ;
+			document.getElementById('v4-2').innerText=ipt.charAt(1) ;
+			document.getElementById('v4-3').innerText=ipt.charAt(2) ;
+			document.getElementById('v4-4').innerText=ipt.charAt(3) ;
+			document.getElementById('v4-5').innerText=ipt.charAt(4) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
 	case "↓タテのカギ5":
-		if (ipt.value.length == 4 ) {
-			document.setElementById('v5-1')=ipt.charAt(0) ;
-			document.setElementById('v5-2')=ipt.charAt(1) ;
-			document.setElementById('v5-3')=ipt.charAt(2) ;
-			document.setElementById('v5-4')=ipt.charAt(3) ;
+		if (ipt.length == 4 ) {
+			document.getElementById('v5-1').innerText=ipt.charAt(0) ;
+			document.getElementById('v5-2').innerText=ipt.charAt(1) ;
+			document.getElementById('v5-3').innerText=ipt.charAt(2) ;
+			document.getElementById('v5-4').innerText=ipt.charAt(3) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
 	case "→ヨコのカギ1":
-		if (ipt.value.length == 5 ) {
-			document.setElementById('h1-1')=ipt.charAt(0) ;
-			document.setElementById('h1-2')=ipt.charAt(1) ;
-			document.setElementById('h1-3')=ipt.charAt(2) ;
-			document.setElementById('h1-4')=ipt.charAt(3) ;
-			document.setElementById('h1-5')=ipt.charAt(4) ;
+		if (ipt.length == 5 ) {
+			document.getElementById('h1-1').innerText=ipt.charAt(0) ;
+			document.getElementById('h1-2').innerText=ipt.charAt(1) ;
+			document.getElementById('h1-3').innerText=ipt.charAt(2) ;
+			document.getElementById('h1-4').innerText=ipt.charAt(3) ;
+			document.getElementById('h1-5').innerText=ipt.charAt(4) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
 	case "→ヨコのカギ3":
-		if (ipt.value.length == 3 ) {
-			document.setElementById('h3-1')=ipt.charAt(0) ;
-			document.setElementById('h3-2')=ipt.charAt(1) ;
-			document.setElementById('h3-3')=ipt.charAt(2) ;
+		if (ipt.length == 3 ) {
+			document.getElementById('h3-1').innerText=ipt.charAt(0) ;
+			document.getElementById('h3-2').innerText=ipt.charAt(1) ;
+			document.getElementById('h3-3').innerText=ipt.charAt(2) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
 	case "→ヨコのカギ6":
-		if (ipt.value.length == 5 ) {
-			document.setElementById('h6-1')=ipt.charAt(0) ;
-			document.setElementById('h6-2')=ipt.charAt(1) ;
-			document.setElementById('h6-3')=ipt.charAt(2) ;
-			document.setElementById('h6-4')=ipt.charAt(3) ;
-			document.setElementById('h6-5')=ipt.charAt(4) ;
+		if (ipt.length == 5 ) {
+			document.getElementById('h6-1').innerText=ipt.charAt(0) ;
+			document.getElementById('h6-2').innerText=ipt.charAt(1) ;
+			document.getElementById('h6-3').innerText=ipt.charAt(2) ;
+			document.getElementById('h6-4').innerText=ipt.charAt(3) ;
+			document.getElementById('h6-5').innerText=ipt.charAt(4) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
