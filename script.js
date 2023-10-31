@@ -131,7 +131,7 @@ function xw_ipt() {
 	}
 }
 
-let sel = document.querySelector('ipt-list') ;
+let sel = document.querySelector('#ipt-list') ;
 element.addEventListener('change', sel_chg);
 function b_2px(el){
 	el.border.weight='2px' ;
