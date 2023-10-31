@@ -141,10 +141,10 @@ function sel_chg(event){
 	switch(selstr) {
 	case "↓タテのカギ1":
 		document.getElementById('v1-1_h1-1').border= '2px solid black' ;
-		document.getElementById('v1-2').border='2px solid black'' ;
-		document.getElementById('v1-3').border='2px solid black'' ;
-		document.getElementById('v1-4').border='2px solid black'' ;
-		document.getElementById('v1-5_h3-2').border='2px solid black'' ;
+		document.getElementById('v1-2').border='2px solid black' ;
+		document.getElementById('v1-3').border='2px solid black' ;
+		document.getElementById('v1-4').border='2px solid black' ;
+		document.getElementById('v1-5_h3-2').border='2px solid black' ;
 		break ;
 	case "↓タテのカギ2":
 		document.getElementById('v2-1').innerText=ipt.charAt(0) ;
