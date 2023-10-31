@@ -137,7 +137,8 @@ function b_2px(el){
 	el.border.weight='2px' ;
 }
 function sel_chg(event){
-	switch(sel.value) {
+	let selstr = document.getElementById('ipt-list').value
+	switch(selstr) {
 	case "↓タテのカギ1":
 		document.getElementById('v1-1_h1-1').border= '2px solid black' ;
 		document.getElementById('v1-2').border='2px solid black'' ;
