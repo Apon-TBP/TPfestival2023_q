@@ -119,10 +119,10 @@ function xw_ipt() {
 		break ;
 	case "→ヨコのカギ7":
 		if (ipt.value.length == 4 ) {
-			document.setElementById('h7-1')=ipt.charAt(0) ;
-			document.setElementById('h7-2')=ipt.charAt(1) ;
-			document.setElementById('h7-3')=ipt.charAt(2) ;
-			document.setElementById('h7-4')=ipt.charAt(3) ;
+			document.setElementById('h7-1').innerText=ipt.charAt(0) ;
+			document.setElementById('h7-2').innerText=ipt.charAt(1) ;
+			document.setElementById('h7-3').innerText=ipt.charAt(2) ;
+			document.setElementById('h7-4').innerText =ipt.charAt(3) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
