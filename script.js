@@ -2,6 +2,7 @@ const sel = document.querySelector('#ipt-list') ;
 element.addEventListener('change', handleChange);
 
 function handleChange(event) {
+	window.alert('変更されました') ;
 	let selstr = document.getElementById('ipt-list').value
 	switch(selstr) {
 	case "↓タテのカギ1":
