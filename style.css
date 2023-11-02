@@ -75,12 +75,25 @@ button#pass_go:hover {
 }
 /************************** section tbl */
 #tbl{
-  height: 400px;
-  margin: auto ;
+  height: 500px;
+  margin: 0 auto ;
+}
+#xw_div{
+  float: left ;
+  width: 50% ;
+  margin-left: 0;
+  background-color: lime;
+}
+
+#xw-input{
+  float: right ;
+  width: 30% ;
+  background-color: pink ;
 }
 table {
-  float: left ;
+  margin: auto ;  
 }
+
 table td {
   width: 30px ;  height: 30px ;
   font-size: 10px ;
@@ -151,6 +164,14 @@ div #links{
   #cts h1{
      font-size: 300% ;
   }
+
+  #wx{
+    width: 100% ;
+  }
+  #xw-input{
+    width: 100% ;
+  }
+
   #links p.link{
      width: 100px ; height: 40px; line-height: 20px;
      font-size: 10px ; 
