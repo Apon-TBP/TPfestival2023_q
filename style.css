@@ -77,6 +77,10 @@ button#pass_go:hover {
 #tbl{
   height: 600px;
   margin: 0 auto ;
+  border: 2px  solid brown ;
+}
+#tbl.text{
+  color: brown ;
 }
 flex_gr{
   display:flex;
