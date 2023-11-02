@@ -1,7 +1,8 @@
 const sel = document.querySelector('#ipt-list') ;
 element.addEventListener('change', handleChange);
 
-function handleChange(event) {
+//function handleChange(event) {
+function sel_chg() {
 	window.alert('変更されました') ;
 	let selstr = document.getElementById('ipt-list').value
 	switch(selstr) {
