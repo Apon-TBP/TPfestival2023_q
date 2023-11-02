@@ -1,14 +1,11 @@
-function kari_sel_chg(){
-}
 function sel_chg() {
-	
+	//ボーダーを初期化
 	cel_b = document.getElementsByClassName('b') ;
 	for (i=0; i < cel_b.length; i++) {
 		cel_b[i].style.border = "1px solid black" ;
 	}
-	
+	//ボーダーを設定
 	let selstr = document.getElementById('ipt-list').value
-	//document.getElementById('xw').style.border ="1px solid black" ;
 	switch(selstr) {
 	case "v1":
 		set_border('v1-1') ;
@@ -62,6 +59,7 @@ function sel_chg() {
 		set_border('h7-4') ;
 	}
 }
+//borderの設定
 function set_border(obj_id){
 	set_cel = document.getElementsByClassName(obj_id) ;
 	set_cel[0].style.border ="3px solid black" ;
@@ -118,11 +116,9 @@ function xw_ipt() {
 	switch (res) {
 	case "v1":
 		if (ipt.length == 5 ) {
-			getCN('v1-1').innerText = ipt.charAt(0) ;
-			getCN('v1-2').innerText = ipt.charAt(0) ;
-			getCN('v1-3').innerText = ipt.charAt(0) ;
-			getCN('v1-4').innerText = ipt.charAt(0) ;
-			getCN('v1-5').innerText = ipt.charAt(0) ;
+			for (i = 0; i < 5; i++ ){			
+				getCN('v1-' & i).innerText = ipt.charAt(i) ;
+			}
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
