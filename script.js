@@ -117,7 +117,7 @@ function xw_ipt() {
 	case "v1":
 		if (ipt.length == 5 ) {
 			for (i = 0; i < 5; i++ ){			
-				getCN('v1-' & i).innerText = ipt.charAt(i) ;
+				getCN('v1-' + i).innerText = ipt.charAt(i) ;
 			}
 		} else {
 			window.alert('文字数があっていません！') ;
