@@ -88,6 +88,11 @@ table td {
 td.b {
   border: 1px solid black ;
   }
+td#v1-1_h1-1 {  border: 3px solid black ;  }
+td#v1-2 {  border: 3px solid black ;  }
+td#v1-3 {  border: 3px solid black ;  }
+td#v1-4 {  border: 3px solid black ;  }
+td#v1-5_h3-2 {  border: 3px solid black ;  }
 
 /************************** section tbl xwinpt */
 tbl #xw-input {
