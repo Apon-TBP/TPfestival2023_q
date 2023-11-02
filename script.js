@@ -63,7 +63,8 @@ function sel_chg() {
 	}
 }
 function set_border(obj_id){
-	document.getElementsByClassName(obj_id[0]).style.border ="3px solid black" ;
+	set_cel = document.getElementsByClassName(obj_id) ;
+	set_cel[0].style.border ="3px solid black" ;
 }
 function click_submit() {
 	const D_PASS= "おんがく" ;		//正解を定義
