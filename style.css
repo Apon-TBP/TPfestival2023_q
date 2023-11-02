@@ -78,15 +78,17 @@ button#pass_go:hover {
   height: 500px;
   margin: 0 auto ;
 }
+flex_gr{
+  display:flex;
+  justify-content: center;
+}
 #xw_div{
-  float: left ;
   width: 50% ;
   margin-left: 0;
   background-color: lime;
 }
 
 #xw-input{
-  float: right ;
   width: 30% ;
   background-color: pink ;
 }
