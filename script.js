@@ -109,7 +109,8 @@ function click_links(kind) {
   	}
 }
 function getCN(cn){
-	return document.getElementsByClassName(cn)[0] ;
+	modori = document.getElementsByClassName(cn) ;
+	return modori[0] ;
 }
 function xw_ipt() {
 	let res = document.getElementById('ipt-list').value ;
@@ -117,87 +118,86 @@ function xw_ipt() {
 	switch (res) {
 	case "v1":
 		if (ipt.length == 5 ) {
-			getCN('v1-1').innerText = ipt.charAt(o) ;
-			getCN('v1-2').innerText = ipt.charAt(o) ;
-			getCN('v1-3').innerText = ipt.charAt(o) ;
-			getCN('v1-4').innerText = ipt.charAt(o) ;
-			getCN('v1-5').innerText = ipt.charAt(o) ;
+			getCN('v1-1').innerText = ipt.charAt(0) ;
+			getCN('v1-2').innerText = ipt.charAt(0) ;
+			getCN('v1-3').innerText = ipt.charAt(0) ;
+			getCN('v1-4').innerText = ipt.charAt(0) ;
+			getCN('v1-5').innerText = ipt.charAt(0) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
 	case "v2":
 		if (ipt.length == 4 ) {
-			document.getElementById('v2-1').innerText=ipt.charAt(0) ;
-			document.getElementById('v2-2_h1-5').innerText=ipt.charAt(1) ;
-			document.getElementById('v2-3').innerText=ipt.charAt(2) ;
-			document.getElementById('v2-4').innerText=ipt.charAt(3) ;
+			getCN('v2-1').innerText=ipt.charAt(0) ;
+			getCN('v2-2').innerText=ipt.charAt(1) ;
+			getCN('v2-3').innerText=ipt.charAt(2) ;
+			getCN('v2-4').innerText=ipt.charAt(3) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
 	case "v4":
 		if (ipt.length == 5 ) {
-			document.getElementById('v4-1_h3-3').innerText=ipt.charAt(0) ;
-			document.getElementById('v4-2_h6-1').innerText=ipt.charAt(1) ;
-			document.getElementById('v4-3').innerText=ipt.charAt(2) ;
-			document.getElementById('v4-4_h7-3').innerText=ipt.charAt(3) ;
-			document.getElementById('v4-5').innerText=ipt.charAt(4) ;
+			getCN('v4-1').innerText=ipt.charAt(0) ;
+			getCN('v4-2').innerText=ipt.charAt(1) ;
+			getCN('v4-3').innerText=ipt.charAt(2) ;
+			getCN('v4-4').innerText=ipt.charAt(3) ;
+			getCN('v4-5').innerText=ipt.charAt(4) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
 	case "v5":
 		if (ipt.length == 4 ) {
-			document.getElementById('v5-1').innerText=ipt.charAt(0) ;
-			document.getElementById('v5-2').innerText=ipt.charAt(1) ;
-			document.getElementById('v5-3_h6-5').innerText=ipt.charAt(2) ;
-			document.getElementById('v5-4').innerText=ipt.charAt(3) ;
+			getCN('v5-1').innerText=ipt.charAt(0) ;
+			getCN('v5-2').innerText=ipt.charAt(1) ;
+			getCN('v5-3').innerText=ipt.charAt(2) ;
+			getCN('v5-4').innerText=ipt.charAt(3) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
 	case "h1":
 		if (ipt.length == 5 ) {
-			document.getElementById('v1-1_h1-1').innerText=ipt.charAt(0) ;
-			document.getElementById('h1-2').innerText=ipt.charAt(1) ;
-			document.getElementById('h1-3').innerText=ipt.charAt(2) ;
-			document.getElementById('h1-4').innerText=ipt.charAt(3) ;
-			document.getElementById('v2-2_h1-5').innerText=ipt.charAt(4) ;
+			getCN('h1-1').innerText=ipt.charAt(0) ;
+			getCN('h1-2').innerText=ipt.charAt(1) ;
+			getCN('h1-3').innerText=ipt.charAt(2) ;
+			getCN('h1-4').innerText=ipt.charAt(3) ;
+			getCN('h1-5').innerText=ipt.charAt(4) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
 	case "h3":
 		if (ipt.length == 3 ) {
-			document.getElementById('h3-1').innerText=ipt.charAt(0) ;
-			document.getElementById('v1-5_h3-2').innerText=ipt.charAt(1) ;
-			document.getElementById('v4-1_h3-3').innerText=ipt.charAt(2) ;
+			getCN('h3-1').innerText=ipt.charAt(0) ;
+			getCN('h3-2').innerText=ipt.charAt(1) ;
+			getCN('h3-3').innerText=ipt.charAt(2) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
 	case "h6":
 		if (ipt.length == 5 ) {
-			document.getElementById('v4-2_h6-1').innerText=ipt.charAt(0) ;
-			document.getElementById('h6-2').innerText=ipt.charAt(1) ;
-			document.getElementById('h6-3').innerText=ipt.charAt(2) ;
-			document.getElementById('h6-4').innerText=ipt.charAt(3) ;
-			document.getElementById('v5-3_h6-5').innerText=ipt.charAt(4) ;
+			getCN('h6-1').innerText=ipt.charAt(0) ;
+			getCN('h6-2').innerText=ipt.charAt(1) ;
+			getCN('h6-3').innerText=ipt.charAt(2) ;
+			getCN('h6-4').innerText=ipt.charAt(3) ;
+			getCN('h6-5').innerText=ipt.charAt(4) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
 	case "h7":
 		if (ipt.length == 4 ) {
-			document.getElementById('h7-1').innerText=ipt.charAt(0) ;
-			document.getElementById('h7-2').innerText=ipt.charAt(1) ;
-			document.getElementById('v4-4_h7-3').innerText=ipt.charAt(2) ;
-			document.getElementById('h7-4').innerText=ipt.charAt(3) ;
+			getCN('h7-1').innerText=ipt.charAt(0) ;
+			getCN('h7-2').innerText=ipt.charAt(1) ;
+			getCN('h7-3').innerText=ipt.charAt(2) ;
+			getCN('h7-4').innerText=ipt.charAt(3) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
-			
 	}
 }
