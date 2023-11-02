@@ -108,22 +108,25 @@ function click_links(kind) {
 	break ;
   	}
 }
+function getCN(cn){
+	return document.getElementsByClassName(cn)[0] ;
+}
 function xw_ipt() {
 	let res = document.getElementById('ipt-list').value ;
 	let ipt = document.getElementById('xw-iptbox').value ;
 	switch (res) {
-	case "↓タテのカギ1":
+	case "v1":
 		if (ipt.length == 5 ) {
-			document.getElementById('v1-1_h1-1').innerText=ipt.charAt(0) ;
-			document.getElementById('v1-2').innerText=ipt.charAt(1) ;
-			document.getElementById('v1-3').innerText=ipt.charAt(2) ;
-			document.getElementById('v1-4').innerText=ipt.charAt(3) ;
-			document.getElementById('v1-5_h3-2').innerText=ipt.charAt(4) ;
+			getCN('v1-1').innerText = ipt.charAt(o) ;
+			getCN('v1-2').innerText = ipt.charAt(o) ;
+			getCN('v1-3').innerText = ipt.charAt(o) ;
+			getCN('v1-4').innerText = ipt.charAt(o) ;
+			getCN('v1-5').innerText = ipt.charAt(o) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
-	case "↓タテのカギ2":
+	case "v2":
 		if (ipt.length == 4 ) {
 			document.getElementById('v2-1').innerText=ipt.charAt(0) ;
 			document.getElementById('v2-2_h1-5').innerText=ipt.charAt(1) ;
@@ -133,7 +136,7 @@ function xw_ipt() {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
-	case "↓タテのカギ4":
+	case "v4":
 		if (ipt.length == 5 ) {
 			document.getElementById('v4-1_h3-3').innerText=ipt.charAt(0) ;
 			document.getElementById('v4-2_h6-1').innerText=ipt.charAt(1) ;
@@ -144,7 +147,7 @@ function xw_ipt() {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
-	case "↓タテのカギ5":
+	case "v5":
 		if (ipt.length == 4 ) {
 			document.getElementById('v5-1').innerText=ipt.charAt(0) ;
 			document.getElementById('v5-2').innerText=ipt.charAt(1) ;
@@ -154,7 +157,7 @@ function xw_ipt() {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
-	case "→ヨコのカギ1":
+	case "h1":
 		if (ipt.length == 5 ) {
 			document.getElementById('v1-1_h1-1').innerText=ipt.charAt(0) ;
 			document.getElementById('h1-2').innerText=ipt.charAt(1) ;
@@ -165,7 +168,7 @@ function xw_ipt() {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
-	case "→ヨコのカギ3":
+	case "h3":
 		if (ipt.length == 3 ) {
 			document.getElementById('h3-1').innerText=ipt.charAt(0) ;
 			document.getElementById('v1-5_h3-2').innerText=ipt.charAt(1) ;
@@ -174,7 +177,7 @@ function xw_ipt() {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
-	case "→ヨコのカギ6":
+	case "h6":
 		if (ipt.length == 5 ) {
 			document.getElementById('v4-2_h6-1').innerText=ipt.charAt(0) ;
 			document.getElementById('h6-2').innerText=ipt.charAt(1) ;
@@ -185,7 +188,7 @@ function xw_ipt() {
 			window.alert('文字数があっていません！') ;
 		}
 		break ;
-	case "→ヨコのカギ7":
+	case "h7":
 		if (ipt.length == 4 ) {
 			document.getElementById('h7-1').innerText=ipt.charAt(0) ;
 			document.getElementById('h7-2').innerText=ipt.charAt(1) ;
@@ -198,4 +201,4 @@ function xw_ipt() {
 			
 	}
 }
-
+function
