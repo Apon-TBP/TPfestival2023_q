@@ -76,6 +76,7 @@ button#pass_go:hover {
 /************************** section tbl */
 #tbl{
   height: 400px;
+  margin: auto ;
 }
 table {
   float: left ;
