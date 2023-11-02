@@ -116,11 +116,13 @@ function xw_ipt() {
 	switch (res) {
 	case "v1":
 		if (ipt.length == 5 ) {
-			getCN('v1-1').innerText=ipt.charAt(0) ;
-			getCN('v1-2').innerText=ipt.charAt(1) ;
-			getCN('v1-3').innerText=ipt.charAt(2) ;
-			getCN('v1-4').innerText=ipt.charAt(3) ;
-			getCN('v1-5').innerText=ipt.charAt(4) ;
+			for (i = 0; i < 5; i++ ){
+				getCN('v1-'+(i+1)).innerText=ipt.charAt(i) ;
+			}
+//			getCN('v1-2').innerText=ipt.charAt(1) ;
+//			getCN('v1-3').innerText=ipt.charAt(2) ;
+//			getCN('v1-4').innerText=ipt.charAt(3) ;
+//			getCN('v1-5').innerText=ipt.charAt(4) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
