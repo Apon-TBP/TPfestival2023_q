@@ -201,4 +201,3 @@ function xw_ipt() {
 			
 	}
 }
-function
