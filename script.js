@@ -3,7 +3,7 @@ function kari_sel_chg(){
 function sel_chg() {
 	
 	cel_b = document.getElementsByClassName('b') ;
-	for (i=0; i < b; i++) {
+	for (i=0; i < b.length; i++) {
 		cel_b[i].style.border = "1px solid black" ;
 	}
 	
