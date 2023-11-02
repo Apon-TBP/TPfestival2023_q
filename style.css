@@ -75,23 +75,25 @@ button#pass_go:hover {
 }
 /************************** section tbl */
 #tbl{
-  height: 500px;
+  height: 600px;
   margin: 0 auto ;
 }
 flex_gr{
   display:flex;
   justify-content: center;
 }
-#xw_div{
+/*#xw_div{
+  float: left ;
   width: 50% ;
   margin-left: 0;
   background-color: lime;
 }
 
 #xw-input{
+  float: right ;
   width: 30% ;
   background-color: pink ;
-}
+}*/
 table {
   margin: auto ;  
 }
@@ -166,7 +168,10 @@ div #links{
   #cts h1{
      font-size: 300% ;
   }
-
+#tbl{
+  height: 600px;
+  margin: 0 auto ;
+}
   #wx{
     width: 100% ;
   }
