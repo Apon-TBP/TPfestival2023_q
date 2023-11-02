@@ -102,6 +102,7 @@ tbl #xw-input {
 footer {
   margin: 10px auto ;
   font-size: 15px ;
+  clear: both ;
 }
 
 /************************** footer links */
