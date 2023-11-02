@@ -1,6 +1,14 @@
+function kari_sel_chg(){
+}
 function sel_chg() {
+	
+	cel_b = document.getElementsByClassName('b') ;
+	for (i=0; i < b; i++) {
+		cel_b[i].style.border = "1px solid black" ;
+	}
+	
 	let selstr = document.getElementById('ipt-list').value
-	document.getElementById('xw').style.border ="1px solid black" ;
+	//document.getElementById('xw').style.border ="1px solid black" ;
 	switch(selstr) {
 	case "v1":
 		set_border('v1-1_h1-1') ;
