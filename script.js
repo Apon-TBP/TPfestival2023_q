@@ -135,10 +135,25 @@ function xw_ipt() {
 
 }
 // 画像ダウンロード
-function downloadImg(){
-  const url = './imgs/img.jpg';
-  const fileName = 'img.jpg';
-  
-  let link = document.getElementById("download");
+function dl_pcno(){
+  const url = 'https://drive.google.com/file/d/1lQ_lGyh5JfjtHBZvF17Lglv2iLtmSIIb/view?usp=sharing';
+  const fileName = 'TOBIRAPOLIS祭2023クロスワード正解_PC用.png';
+  let link = document.getElementById("dlpcno");
   link.href= url;
   link.download = fileName;
+}
+function dl_pc4k(){
+  const url = 'https://drive.google.com/file/d/1go_lMx9QYdmqsY5P5jXWo2kOdT_pjbZf/view?usp=sharing';
+  const fileName = 'TOBIRAPOLIS祭2023クロスワード正解_PC用(4k).png';
+  let link = document.getElementById("dlpc4k");
+  link.href= url;
+  link.download = fileName;
+}
+function dl_mobi(){
+  const url = 'https://drive.google.com/file/d/1w1r5-Qn-lDvTntHVeiraAdj0v6v2mzm1/view?usp=sharing';
+  const fileName = 'TOBIRAPOLIS祭2023クロスワード正解_スマホ用.png';
+  let link = document.getElementById("dlmobi");
+  link.href= url;
+  link.download = fileName;
+}
+
