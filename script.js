@@ -113,91 +113,32 @@ function getCN(cn){
 function xw_ipt() {
 	let res = document.getElementById('ipt-list').value ;
 	let ipt = document.getElementById('xw-iptbox').value ;
+	let len = 0
 	switch (res) {
-	case "v1":
-		if (ipt.length == 5 ) {
-			for (i = 0; i < 5; i++ ){
-				getCN('v1-'+(i+1)).innerText=ipt.charAt(i) ;
-			}
-//			getCN('v1-2').innerText=ipt.charAt(1) ;
-//			getCN('v1-3').innerText=ipt.charAt(2) ;
-//			getCN('v1-4').innerText=ipt.charAt(3) ;
-//			getCN('v1-5').innerText=ipt.charAt(4) ;
-		} else {
-			window.alert('文字数があっていません！') ;
-		}
-		break ;
-	case "v2":
-		if (ipt.length == 4 ) {
-			getCN('v2-1').innerText=ipt.charAt(0) ;
-			getCN('v2-2').innerText=ipt.charAt(1) ;
-			getCN('v2-3').innerText=ipt.charAt(2) ;
-			getCN('v2-4').innerText=ipt.charAt(3) ;
-		} else {
-			window.alert('文字数があっていません！') ;
-		}
-		break ;
-	case "v4":
-		if (ipt.length == 5 ) {
-			getCN('v4-1').innerText=ipt.charAt(0) ;
-			getCN('v4-2').innerText=ipt.charAt(1) ;
-			getCN('v4-3').innerText=ipt.charAt(2) ;
-			getCN('v4-4').innerText=ipt.charAt(3) ;
-			getCN('v4-5').innerText=ipt.charAt(4) ;
-		} else {
-			window.alert('文字数があっていません！') ;
-		}
-		break ;
-	case "v5":
-		if (ipt.length == 4 ) {
-			getCN('v5-1').innerText=ipt.charAt(0) ;
-			getCN('v5-2').innerText=ipt.charAt(1) ;
-			getCN('v5-3').innerText=ipt.charAt(2) ;
-			getCN('v5-4').innerText=ipt.charAt(3) ;
-		} else {
-			window.alert('文字数があっていません！') ;
-		}
-		break ;
-	case "h1":
-		if (ipt.length == 5 ) {
-			getCN('h1-1').innerText=ipt.charAt(0) ;
-			getCN('h1-2').innerText=ipt.charAt(1) ;
-			getCN('h1-3').innerText=ipt.charAt(2) ;
-			getCN('h1-4').innerText=ipt.charAt(3) ;
-			getCN('h1-5').innerText=ipt.charAt(4) ;
-		} else {
-			window.alert('文字数があっていません！') ;
-		}
-		break ;
-	case "h3":
-		if (ipt.length == 3 ) {
-			getCN('h3-1').innerText=ipt.charAt(0) ;
-			getCN('h3-2').innerText=ipt.charAt(1) ;
-			getCN('h3-3').innerText=ipt.charAt(2) ;
-		} else {
-			window.alert('文字数があっていません！') ;
-		}
-		break ;
-	case "h6":
-		if (ipt.length == 5 ) {
-			getCN('h6-1').innerText=ipt.charAt(0) ;
-			getCN('h6-2').innerText=ipt.charAt(1) ;
-			getCN('h6-3').innerText=ipt.charAt(2) ;
-			getCN('h6-4').innerText=ipt.charAt(3) ;
-			getCN('h6-5').innerText=ipt.charAt(4) ;
-		} else {
-			window.alert('文字数があっていません！') ;
-		}
-		break ;
-	case "h7":
-		if (ipt.length == 4 ) {
-			getCN('h7-1').innerText=ipt.charAt(0) ;
-			getCN('h7-2').innerText=ipt.charAt(1) ;
-			getCN('h7-3').innerText=ipt.charAt(2) ;
-			getCN('h7-4').innerText=ipt.charAt(3) ;
-		} else {
-			window.alert('文字数があっていません！') ;
-		}
-		break ;
+	case "v1": len = 5 ;	break ;
+	case "v2": len = 4 ;	break ;
+	case "v4": len = 5 ;	break ;
+	case "v5": len = 4 ;	break ;
+	case "h1": len = 5 ;	break ;
+	case "h3": len = 3 ;	break ;
+	case "h6": len = 5 ;	break ;
+	case "h7": len = 4 ;	break ;
 	}
+	
+	if (ipt.length == len ) {
+		for (i = 0; i < len; i++ ){
+			getCN('v1-'+(i+1)).innerText=ipt.charAt(i) ;
+		}
+	} else {
+		window.alert('文字数があっていません！') ;
+	}
+
 }
+// 画像ダウンロード
+function downloadImg(){
+  const url = './imgs/img.jpg';
+  const fileName = 'img.jpg';
+  
+  let link = document.getElementById("download");
+  link.href= url;
+  link.download = fileName;
