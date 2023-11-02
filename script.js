@@ -19,46 +19,46 @@ function sel_chg() {
 		break ;
 	case "v2":
 		set_border('v2-1') ;
-		set_border('v2-2_h1-5') ;
+		set_border('v2-2') ;
 		set_border('v2-3') ;
 		set_border('v2-4') ;
 		break ;
 	case "v4":
-		set_border('v4-1_h3-3') ;
-		set_border('v4-2_h6-1') ;
+		set_border('v4-1') ;
+		set_border('v4-2') ;
 		set_border('v4-3') ;
-		set_border('v4-4_h7-3') ;
+		set_border('v4-4') ;
 		set_border('v4-5') ;
 		break ;
 	case "v5":
 		set_border('v5-1') ;
 		set_border('v5-2') ;
-		set_border('v5-3_h6-5') ;
+		set_border('v5-3') ;
 		set_border('v5-4') ;
 		break ;
 	case "h1":
-		set_border('v1-1_h1-1') ;
+		set_border('h1-1') ;
 		set_border('h1-2') ;
 		set_border('h1-3') ;
 		set_border('h1-4') ;
-		set_border('v2-2_h1-5') ;
+		set_border('h1-5') ;
 		break ;
 	case "h3":
 		set_border('h3-1') ;
-		set_border('v1-5_h3-2') ;
-		set_border('v4-1_h3-3') ;
+		set_border('h3-2') ;
+		set_border('h3-3') ;
 		break ;
 	case "h6":
-		set_border('v4-2_h6-1') ;
+		set_border('h6-1') ;
 		set_border('h6-2') ;
 		set_border('h6-3') ;
 		set_border('h6-4') ;
-		set_border('v5-3_h6-5') ;
+		set_border('h6-5') ;
 		break ;
 	case "h7":
 		set_border('h7-1') ;
 		set_border('h7-2') ;
-		set_border('v4-4_h7-3') ;
+		set_border('h7-3') ;
 		set_border('h7-4') ;
 	}
 }
