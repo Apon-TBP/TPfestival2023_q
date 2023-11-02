@@ -3,7 +3,7 @@ function kari_sel_chg(){
 function sel_chg() {
 	
 	cel_b = document.getElementsByClassName('b') ;
-	for (i=0; i < b.length; i++) {
+	for (i=0; i < cel_b.length; i++) {
 		cel_b[i].style.border = "1px solid black" ;
 	}
 	
@@ -11,11 +11,11 @@ function sel_chg() {
 	//document.getElementById('xw').style.border ="1px solid black" ;
 	switch(selstr) {
 	case "v1":
-		set_border('v1-1_h1-1') ;
+		set_border('v1-1') ;
 		set_border('v1-2') ;
 		set_border('v1-3') ;
 		set_border('v1-4') ;
-		set_border('v1-5_h3-2') ;
+		set_border('v1-5') ;
 		break ;
 	case "v2":
 		set_border('v2-1') ;
@@ -63,7 +63,7 @@ function sel_chg() {
 	}
 }
 function set_border(obj_id){
-	document.getElementById(obj_id).style.border ="3px solid black" ;
+	document.getElementsByClassName(obj_id[0]).style.border ="3px solid black" ;
 }
 function click_submit() {
 	const D_PASS= "おんがく" ;		//正解を定義
