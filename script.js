@@ -121,7 +121,6 @@ function xw_ipt() {
 			getCN('v1-3').innerText=ipt.charAt(2) ;
 			getCN('v1-4').innerText=ipt.charAt(3) ;
 			getCN('v1-5').innerText=ipt.charAt(4) ;
-			) ;
 		} else {
 			window.alert('文字数があっていません！') ;
 		}
