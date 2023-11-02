@@ -1,59 +1,61 @@
 function sel_chg() {
 	let selstr = document.getElementById('ipt-list').value
 	switch(selstr) {
-	case "↓タテのカギ1":
-		document.getElementById('v1-1_h1-1').style.border= "2px solid black" ;
-		document.getElementById('v1-2').style.border="2px solid black" ;
-		document.getElementById('v1-3').style.border= "2px solid black" ;
-		document.getElementById('v1-4').style.border= "2px solid black" ;
-		document.getElementById('v1-5_h3-2').style.border= "2px solid black" ;
+	case "v1":
+		set_border('v1-1_h1-1') ;
+		set_border('v1-2') ;
+		set_border('v1-3') ;
+		set_border('v1-4') ;
+		set_border('v1-5_h3-2') ;
 		break ;
-	case "↓タテのカギ2":
+	case "v2":
 		document.getElementById('v2-1').innerText=ipt.charAt(0) ;
 		document.getElementById('v2-2_h1-5').innerText=ipt.charAt(1) ;
 		document.getElementById('v2-3').innerText=ipt.charAt(2) ;
 		document.getElementById('v2-4').innerText=ipt.charAt(3) ;
 		break ;
-	case "↓タテのカギ4":
+	case "v4":
 		document.getElementById('v4-1_h3-3').innerText=ipt.charAt(0) ;
 		document.getElementById('v4-2_h6-1').innerText=ipt.charAt(1) ;
 		document.getElementById('v4-3').innerText=ipt.charAt(2) ;
 		document.getElementById('v4-4_h7-3').innerText=ipt.charAt(3) ;
 		document.getElementById('v4-5').innerText=ipt.charAt(4) ;
 		break ;
-	case "↓タテのカギ5":
+	case "v5":
 		document.getElementById('v5-1').innerText=ipt.charAt(0) ;
 		document.getElementById('v5-2').innerText=ipt.charAt(1) ;
 		document.getElementById('v5-3_h6-5').innerText=ipt.charAt(2) ;
 		document.getElementById('v5-4').innerText=ipt.charAt(3) ;
 		break ;
-	case "→ヨコのカギ1":
+	case "h1":
 		document.getElementById('v1-1_h1-1').innerText=ipt.charAt(0) ;
 		document.getElementById('h1-2').innerText=ipt.charAt(1) ;
 		document.getElementById('h1-3').innerText=ipt.charAt(2) ;
 		document.getElementById('h1-4').innerText=ipt.charAt(3) ;
 		document.getElementById('v2-2_h1-5').innerText=ipt.charAt(4) ;
 		break ;
-	case "→ヨコのカギ3":
+	case "h3":
 		document.getElementById('h3-1').innerText=ipt.charAt(0) ;
 		document.getElementById('v1-5_h3-2').innerText=ipt.charAt(1) ;
 		document.getElementById('v4-1_h3-3').innerText=ipt.charAt(2) ;
 		break ;
-	case "→ヨコのカギ6":
+	case "h6":
 		document.getElementById('v4-2_h6-1').innerText=ipt.charAt(0) ;
 		document.getElementById('h6-2').innerText=ipt.charAt(1) ;
 		document.getElementById('h6-3').innerText=ipt.charAt(2) ;
 		document.getElementById('h6-4').innerText=ipt.charAt(3) ;
 		document.getElementById('v5-3_h6-5').innerText=ipt.charAt(4) ;
 		break ;
-	case "→ヨコのカギ7":
+	case "h7":
 		document.getElementById('h7-1').innerText=ipt.charAt(0) ;
 		document.getElementById('h7-2').innerText=ipt.charAt(1) ;
 		document.getElementById('v4-4_h7-3').innerText=ipt.charAt(2) ;
 		document.getElementById('h7-4').innerText=ipt.charAt(3) ;
 	}
 }
-
+function set_border(obj_id){
+	document.getElementById(obj_id).style.border ="3px solid black" ;
+}
 function click_submit() {
 	const D_PASS= "おんがく" ;		//正解を定義
 	let res = document.getElementById('pass_in') ;	//記入したパスワードを取得
