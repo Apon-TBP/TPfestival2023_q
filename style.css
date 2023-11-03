@@ -50,9 +50,17 @@ body {
   border-bottom: white 3px solid ;
 }
 #present img{
-  width: 500px; heigth: 400px ;
-  background-color: yellow ;
+  width: 400px;
   border: solid 2px ;
+}
+#present dlmtn {
+  display: block ;
+  background-color: red ;
+  border: 2px solid white ;
+  color: white ;
+  text-decoration: none ;
+  text-align: center ;
+  font-size: 10px ;
 }
 /************************** section pass */
 #pass {
