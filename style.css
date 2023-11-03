@@ -12,7 +12,9 @@ body {
   background-repeat: no-repeat ;
   border: solid 3px #4987ff;
 }
-
+button:hover {
+  cursor: pointer ;
+}
 /************************** section cts */
 #cts{
   text-align: center ;
@@ -78,36 +80,25 @@ input#pass_in{
   font-size: large ;
   text-align: center ;
 }
-button#pass_go:hover {
-  cursor: pointer ; 
-}
+
 /************************** section tbl */
 #tbl{
-  height: 600px;
+  height: auto ;
   margin: 0 auto ;
   border: 2px  solid brown ;
+  width: 60% ;
 }
-#tbl.text{
+#tbl .text{
   color: brown ;
+  font-size :15px ;
 }
 flex_gr{
   display:flex;
   justify-content: center;
 }
-/*#xw_div{
-  float: left ;
-  width: 50% ;
-  margin-left: 0;
-  background-color: lime;
-}
-
-#xw-input{
-  float: right ;
-  width: 30% ;
-  background-color: pink ;
-}*/
 table {
-  margin: auto ;  
+  margin: auto ; 
+  padding: 10px ;
 }
 
 table td {
@@ -183,6 +174,8 @@ div #links{
 #tbl{
   height: 600px;
   margin: 0 auto ;
+  width: 100% ;
+  border: none ;
 }
   #wx{
     width: 100% ;
