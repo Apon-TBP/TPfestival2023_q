@@ -129,7 +129,7 @@ function xw_ipt() {
 	
 	if (ipt.length == len ) {
 		for (i = 0; i < len; i++ ){
-			getCN('v1-'+(i+1)).innerText=ipt.charAt(i) ;
+			getCN(res+'-'+(i+1)).innerText=ipt.charAt(i) ;
 		}
 	} else {
 		window.alert('文字数があっていません！') ;
