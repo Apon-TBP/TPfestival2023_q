@@ -38,6 +38,8 @@ function click_submit() {
 			//プレゼントを表示
 			let pre = document.getElementById('present');
 			pre.style.display = 'block';
+			let twt = document.getElementById('tweet') ;
+			twt.style.display = 'block ;
 			//パスワード入力欄を非表示
 			let pas = document.getElementById('pass');
 			pas.style.display = 'none' ;
