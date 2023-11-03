@@ -65,12 +65,13 @@ function set_border(obj_id){
 	set_cel[0].style.border ="3px solid black" ;
 }
 function click_submit() {
-	const D_PASS= "おんがく" ;		//正解を定義
+	const D_PASS_H = "おんがく" ;		//正解を定義
+	const D_PASS_K = "オンガク" ;
 	let res = document.getElementById('pass_in') ;	//記入したパスワードを取得
 	//パスワードの文字数は0より大きいか？
 	if (res.value.length > 0 ) {
 		//パスワードの文字列は正解と一致しているか？
-		if (res.value == D_PASS ) {
+		if ((res.value == D_PASS_H)||(res.value == D_PASS_K")) {
 			window.alert('正解です！') ;	
 			//プレゼントを表示
 			let pre = document.getElementById('present');
