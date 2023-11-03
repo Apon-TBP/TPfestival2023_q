@@ -8,7 +8,6 @@ function sel_chg() {
 	let selstr = document.getElementById('ipt-list').value
 	let len = 0 ;
 	switch(selstr) {
-	switch (res) {
 	case "v1": len = 5 ;	break ;
 	case "v2": len = 4 ;	break ;
 	case "v4": len = 5 ;	break ;
@@ -19,7 +18,7 @@ function sel_chg() {
 	case "h7": len = 4 ;	break ;
 	}		
 	for (i = 0; i < len; i++ ){
-		set_border(ret + '-' + (i+1)) ;
+		set_border(selstr + '-' + (i+1)) ;
 	}
 			
 //		set_border('v1-1') ;
