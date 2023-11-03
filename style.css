@@ -68,6 +68,10 @@ button:hover {
   font-size: 15px ;
   padding: 3px ; margin: 10px  auto ;
 }
+/************************** section tweet */
+#tweet{
+  display: none ;
+}
 /************************** section pass */
 #pass {
   display: block ;
